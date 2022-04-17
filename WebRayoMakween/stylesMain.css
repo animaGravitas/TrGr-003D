@@ -15,6 +15,13 @@
     background-color: rgba(0,0,0,0.4);
 }
 
+.carousel-item {
+    max-width: 100%;
+    height: auto;
+}
+
 .carousel-caption {
     font-family: 'Merriweather', serif;
 }
+
+
