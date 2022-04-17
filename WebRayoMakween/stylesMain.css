@@ -15,7 +15,7 @@
     background-color: rgba(0,0,0,0.4);
 }
 
-.carousel-item img {
+#img01 {
     max-width: 100%;
     height: auto;
 }
@@ -23,5 +23,14 @@
 .carousel-caption {
     font-family: 'Merriweather', serif;
 }
+
+.carousel-caption h1 {
+    font-size: 4vw;
+}
+
+.carousel-caption h4 {
+    font-size: 2vw;
+}
+
 
 
