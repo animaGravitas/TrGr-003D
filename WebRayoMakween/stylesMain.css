@@ -1,7 +1,12 @@
+
 /*Nav*/
 .nav-item {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 19px;
+}
+
+.navbar {
+    box-shadow: 0px 6px 30px 0px rgba(0,0,0,0.1);
 }
 
 /*Carousel*/
@@ -36,7 +41,7 @@
     font-size: 2vw;
 }
 
-/*Nosotros*/
+/*RayoMakween*/
 .TituloIn {
     text-align: center;
     font-family: 'Abril Fatface', cursive;
@@ -46,5 +51,35 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+/*Galería división*/
+#galeriaDiv {
+    background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(Img/IniGaleria.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+#galeriaDiv h1 {
+    color: #fff;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 70px;
+}
 
+/*Galería*/
+.service {
+    padding: 32px;
+    background-color: #fff;
+    box-shadow: 0px 6px 30px 0px rgba(0,0,0,0.1);
+}
+
+.service h1 {
+    margin-top: 24px;
+    margin-bottom: 14px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 23px;
+
+}
+
+.service img {
+    width: 300px;
+}
