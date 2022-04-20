@@ -27,6 +27,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesMain.css">
 
 </head>
@@ -59,7 +62,7 @@
                 <a class="nav-link active" aria-current="page" href="#galeriaIni">Galería</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary ms-lg-2">Contácto</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -98,24 +101,30 @@
       </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="Img/Carousel/ElectronicaAutomotriz.jpg" class="d-block w-100" alt="banner 1" >
+                <img src="Img/Carousel/ElectronicaAutomotriz.jpg" class="d-block w-100" alt="banner 1">
               <div class="carousel-caption">
-                <h1>Mantenimiento de circuito eléctrico</h1>
-                <h6>Descripción</h6>
+                  <a class="acarousel" style="color: inherit; text-decoration: none;" href="WebAutos/IndexTrabajos1.html">
+                    <h1>Mantenimiento de circuito eléctrico</h1>
+                  </a>
+                    <h6>Descripción</h6>
               </div>
             </div>
             <div class="carousel-item">
               <img src="Img/Carousel/cajaCambios.jpg" class="d-block w-100" alt="banner 2">
               <div class="carousel-caption">
-                <h1>Mantenimiento de transmisión</h1>
-                <h6>Descripción</h6>
+                <a class="acarousel" style="color: inherit; text-decoration: none;" href="WebAutos/IndexTrabajos2.html">
+                  <h1>Mantenimiento de transmisión</h1>
+                </a>
+                  <h6>Descripción</h6>
               </div>
             </div>
             <div class="carousel-item">
               <img src="Img/Carousel/suspensionDireccion.jpg" class="d-block w-100" alt="banner 3">
               <div class="carousel-caption">
-                <h1>Mantenimiento de suspensión y dirección</h1>
-                <h6>Descripción</h6>
+                <a class="acarousel" style="color: inherit; text-decoration: none;" href="WebAutos/IndexTrabajos3.html">
+                  <h1>Mantenimiento de suspensión y dirección</h1>
+                </a>
+                  <h6>Descripción</h6>
               </div>
             </div>
           
@@ -228,6 +237,58 @@
         </div>
     </div>
   </section> <br><br><br>
+
+  <!--Atenciones-->
+  <!--MODAL-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-body p-0">
+                <div class="container-fluid">
+                    <div class="row gy-4">
+                      <div class="col-lg-4 col-sm-12 bg-cover">
+                                <img src="Img/contacto.jpg" width="410" height="550" alt="">
+                                <div>
+                                </div>
+                            </div>
+                        <div class="col-lg-8">
+                            <form class="p-lg-5 col-12 row g-3">
+                                <div>
+                                    <h1>Contáctanos</h1>
+                                <p style="font-size: 17px;">Te responderemos tan rápido como nos sea posible</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label style="font-size: 20px;" for="userName" class="form-label">Primer nombre</label>
+                                    <input type="text" class="form-control" placeholder="Antonio" id="userName"
+                                        aria-describedby="emailHelp" required>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label style="font-size: 20px;" for="userName" class="form-label">Apellido paterno</label>
+                                    <input type="text" class="form-control" placeholder="Gonzáles" id="userName"
+                                        aria-describedby="emailHelp" required>
+                                </div>
+                                <div class="col-12">
+                                    <label style="font-size: 20px;" for="userName" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" placeholder="Antonio@ejemplo.com" id="userName"
+                                        aria-describedby="emailHelp" required>
+                                </div>
+                                <div class="col-12">
+                                    <label style="font-size: 20px;" for="exampleInputEmail1" class="form-label">Mensaje</label>
+                                    <textarea name="" placeholder="Texto" class="form-control" id=""  rows="4"></textarea>
+                                </div>
+
+                                <div class="col-12">
+                                    <button style="font-size: 20px;" type="submit" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

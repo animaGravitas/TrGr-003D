@@ -41,6 +41,10 @@
     font-size: 2vw;
 }
 
+.acarousel :hover {
+    color:#0E2A47;
+}
+
 /*RayoMakween*/
 .TituloIn {
     text-align: center;
@@ -83,3 +87,5 @@
 .service img {
     width: 300px;
 }
+
+/*Contácto*/
