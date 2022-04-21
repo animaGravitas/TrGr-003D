@@ -81,6 +81,9 @@
                   <li><a class="dropdown-item" href="#card3">Alonso Gonzáles</a></li>
                 </ul>
               </li>
+              <li class="nav-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModalAtencion" class="btn btn-outline-info ms-lg-2">Agregar atención</a>
+              </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -328,7 +331,7 @@
     </div>
   </footer>
 
-  <!--MODAL-->
+  <!--MODAL Contácto-->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content">
@@ -368,6 +371,57 @@
 
                                 <div class="col-12">
                                     <button style="font-size: 20px;" type="submit" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  </div>
+
+  <!--MODAL Atención-->
+  <div class="modal fade" id="exampleModalAtencion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-body p-0">
+                <div class="container-fluid">
+                    <div class="row gy-4">
+                      <div class="col-lg-4 col-sm-12 bg-cover">
+                        <img src="Img/IniGaleria.jpg" class="img-fluid" alt="" style="min-height: 576px;"> 
+                                <div>
+                                </div>
+                            </div>
+                        <div class="col-lg-8">
+                            <form class="p-lg-5 col-12 row g-3">
+                                <div>
+                                    <h1>Agregar nueva atención</h1>
+                                    <p>Datos del mecánico</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label style="font-size: 20px;" for="userName" class="form-label">Primer nombre</label>
+                                    <input type="text" class="form-control" placeholder="Antonio" id="userName"
+                                        aria-describedby="emailHelp" required>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label style="font-size: 20px;" for="userName" class="form-label">Apellido paterno</label>
+                                    <input type="text" class="form-control" placeholder="Gonzáles" id="userName"
+                                        aria-describedby="emailHelp" required>
+                                </div>
+                                <div class="col-12">
+                                    <label style="font-size: 20px;" for="userName" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" placeholder="Antonio@ejemplo.com" id="userName"
+                                        aria-describedby="emailHelp" required>
+                                </div>
+                                <div class="col-lg-10">
+                                  <label style="font-size: 20px;" for="userName" class="form-label">Categoría de atención</label>
+                                  <input type="text" class="form-control" placeholder="Caja de cambios" id="userName"
+                                      aria-describedby="emailHelp" required>
+                                </div>                        
+                                <div class="col-12">
+                                    <button style="font-size: 20px;" type="submit" class="btn btn-primary">Agregar</button>
                                 </div>
                             </form>
                         </div>
